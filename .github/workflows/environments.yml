@@ -6,7 +6,7 @@ on:
         type: environment                         # 入力パラメータでEnvironmentsを切り替え
         default: test
         required: false
-        desscription: Environment name
+        description: Environment name
 jobs:
   print:
     runs-on: ubuntu-latest
